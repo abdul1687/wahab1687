@@ -1,0 +1,103 @@
+body{
+    background-image: url(../../images/minecraft.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 650px;
+    margin-top: 80px;
+}
+button{
+    background-color: #6c6c6c;
+    color: rgb(255, 255, 255);
+    width: 450px;
+    padding: 10px 20px 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Press Start 2P';
+    margin-top: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: inset -4px -4px 0px #373737, 
+                inset 4px 4px 0px #adb5bd;
+    text-shadow: 2px 2px 0px #3F3F3F;
+    font-family: minecraftia , cursive;
+    font-size: 16px;
+   
+}
+button:hover{
+    border: inset 1px black;
+    outline: none;
+    background-color: #8b8b8b;
+    color: #ffffa0;
+}
+button:active{
+    border: inset 1px black;
+    outline: none;
+    background-color: #8b8b8b;
+    color: #ffffa0;
+    box-shadow: inset 1px 1px 0px #373737, 
+                inset -1px -1px 0px #adb5bd;
+}
+.btn-s{
+    padding: 10px 10px 10px 10px;
+    width: 220px;
+}
+.s{
+    color: rgb(255, 255, 255);
+    width: 10px;
+    padding: 10px 30px 10px 20px;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sp{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+    gap: 10px;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-top: 20px;
+}
+.copy{
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    transform: translateX(-10%);
+    font-size: 16px;
+    font-family: minecraftia,sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.ver{
+    
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    transform: translateX(50%);
+    font-size: 16px;
+    font-family: minecraftia, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+@font-face {
+  font-family: 'Minecraftia'; 
+  src: url('fonts/Minecraftia-Regular.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
